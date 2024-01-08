@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(219, 219, 219);
+}
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    height: 65px;
+    width: 100%;
+    background-color: #11171f;
+}
+#header2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 36px;
+    width: 100%;
+    background-color: #232F3E;
+}
+#logo{
+    height: 36px;
+    padding: 10px;
+}
+.del1{
+    font-family: Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.692);
+    font-weight: 300;
+    font-size: 11px;
+}
+.del2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+#search{
+    display: flex;
+    justify-content: flex-start;
+}
+#nav{
+    text-decoration: none;
+}
+#bar{
+    height: 40px;
+    width: 1000px;
+    border: 0px;
+}
+#b1{
+    width: 46px;
+    background-color: #ffc062;
+    border: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+#s1{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    width: 50px;
+    border: 0px;
+    color: rgb(70, 70, 70);
+    background-color: rgb(219, 219, 219);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+#nav2{
+    text-decoration: none;
+}
+#nav3{
+    position: relative;
+    text-decoration: none;
+}
+#nav4{
+    text-decoration: none;
+}
+#s2{
+    text-align: center;
+    font-size: 15px;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+}
+#india{
+    height: 15px;
+}
+#language{
+    display: flex;
+    justify-content: flex-start;
+}
+#all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+}
+.header2font{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dealimage{
+    height: 600px;
+}
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    height: 450px;
+    width: 1500px;
+    position: relative;
+    justify-content: space-evenly;
+    top: -280px;
+}
+.cardplates{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    border-radius: 2px;
+    height: 380px;
+    width: 310px;
+    background-color: white;
+    padding: 20px;
+}
+.quadcards1{
+    background-color: #e0c54b00;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+    width: 310px;
+}
+.quadcards2{
+    background-color: #db414100;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 140px;
+    width: 150px;
+}
+#GIndianFestival{
+    height: 280px;
+    width: 310px;
+}
+.cardtext{
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.cardtext2{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(0, 155, 155);
+    text-decoration: none;
+}
+.smallcardimages{
+    height: 110px;
+    width: 147px;
+}
+.smallcardtext{
+    font-family: Arial, sans-serif;
+    margin-top: 3px;
+    font-size: 12px;
+    color: rgb(82, 82, 82);
+    text-align: left;
+}
+
+
+
+/* Media Queries */
+@media(max-width: 1850px){
+    #bar{
+        width: 910px;
+    }
+    #h1{
+        display: none;
+    }
+}
+@media(max-width: 1750px){
+    #bar{
+        width: 810px;
+    }
+    #h2{
+        display: none;
+    }
+}
+@media(max-width: 1650px){
+    #bar{
+        width: 710px;
+    }
+    #h3{
+        display: none;
+    }
+}
+@media(max-width: 1560px){
+    #bar{
+        width: 610px;
+    }
+    #h4{
+        display: none;
+    }
+    .dealimage{
+        height: 560px;
+    }
+
+    /* Cards */
+    #cards{
+        width: 1400px;
+    }
+    .cardplates{
+        width: 290px;
+    }
+    .quadcards1{
+        width: 290px;
+    }
+    .smallcardimages{
+        height: 100px;
+        width: 137px;
+    }
+    #GIndianFestival{
+        height: 260px;
+        width: 290px;
+    }
+}
