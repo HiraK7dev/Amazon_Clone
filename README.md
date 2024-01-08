@@ -2,14 +2,6 @@
 
 This project is an Amazon clone that replicates the design of the famous e-commerce platform, Amazon. It serves as a hands-on learning experience in web development, focusing on key concepts such as the Box Model in CSS and the effective use of Display Properties and Flexbox.
 
-## Technologies Used
-
-- **HTML:** The structure of the web pages is built using HTML, ensuring a clear and organized layout.
-
-- **CSS:** The styling of the project is accomplished with CSS, implementing the Box Model for precise control over element dimensions and spacing.
-
-- **Flexbox:** The Flexbox layout model is employed to create flexible and responsive designs, particularly useful for structuring components such as the navigation bar and product listings.
-
 ## Learning Highlights
 
 While working on this project, several key concepts were mastered:
