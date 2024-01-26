@@ -121,8 +121,8 @@ body{
     width: 1500px;
     position: relative;
     justify-content: space-evenly;
-    top: -280px;
-    background: linear-gradient(rgba(255, 0, 0, 0), rgb(219, 219, 219));
+    top: -330px;
+    background: linear-gradient(rgba(255, 0, 0, 0), rgb(219, 219, 219),  rgb(219, 219, 219));
 }
 .cardplates{
     display: flex;
